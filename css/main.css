@@ -36,7 +36,8 @@
 .menu.show {
   visibility: visible;
 }
-.menu-branding, .menu-nav {
+.menu-branding,
+.menu-nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -69,7 +70,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("/img/portrait.jpg");
+  background: url("../img/portrait.jpg");
   border-radius: 50%;
   border: 3px solid #eece1a;
 }
@@ -142,14 +143,20 @@ body#bg-img:after {
   background: rgba(68, 68, 68, 0.9);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400;
 }
-h1.lg-heading, h2.lg-heading, h3.lg-heading {
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
   font-size: 6rem;
 }
-h1.sm-heading, h2.sm-heading, h3.sm-heading {
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.5rem 1rem;
   background: rgba(73, 73, 73, 0.5);
@@ -216,7 +223,9 @@ main#home h1 {
 .about-info .job-3 {
   grid-area: job3;
 }
-.about-info .job-1, .about-info .job-2, .about-info .job-3 {
+.about-info .job-1,
+.about-info .job-2,
+.about-info .job-3 {
   background: #515151;
   padding: 0.5rem;
   border-bottom: 5px solid #eece1a;
@@ -260,13 +269,17 @@ main#home h1 {
   color: #000;
 }
 
-.btn, .btn-light, .btn-dark {
+.btn,
+.btn-light,
+.btn-dark {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
 }
-.btn:hover, .btn-light:hover, .btn-dark:hover {
+.btn:hover,
+.btn-light:hover,
+.btn-dark:hover {
   background-color: #eece1a;
   color: #000;
 }
@@ -309,12 +322,14 @@ main#home h1 {
     margin-bottom: 1rem;
     font-size: 4.063rem;
   }
-  ul.menu-nav, div.menu-branding {
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
   }
-  ul.menu-nav.show, div.menu-branding.show {
+  ul.menu-nav.show,
+  div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
   .menu-nav {
@@ -350,4 +365,4 @@ main#home h1 {
   .boxes div {
     font-size: 20px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
