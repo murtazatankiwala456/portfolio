@@ -1,0 +1,15 @@
+body {
+  background-color: #fbfaf7;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  color: #fbfaf7;
+  background-color: #08817a;
+  border-radius: 5px;
+}
