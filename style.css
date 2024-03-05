@@ -1,26 +1,79 @@
-body {
-  background-color: #fbfaf7;
+body,
+html {
+  height: 100%;
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-h1,
-h2 {
-  background-color: #1c456d;
-  color: #ffffff;
+.container {
+  max-width: 60vw;
+  margin: auto;
+  border: 1px solid red;
 }
-.others ul li {
+/* Navbar */
+header {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  padding-top: 10px;
+}
+header .logo {
+  width: 200px;
+}
+
+nav.main-nav a {
+  text-decoration: underline;
+  text-decoration-color: #1d1d1d;
+  color: #1d1d1d;
+  opacity: 0.64;
+  margin-right: 25px;
+}
+nav.main-nav a:hover {
+  color: #000;
+}
+
+main {
+  padding-top: 100px;
+}
+/* hero section */
+.hero-container {
+  display: flex;
+}
+.hero-container .author {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 0.8;
+  padding-bottom: 30px;
+}
+.hero-container .role {
+  opacity: 0.64;
+  font-size: 1.5rem;
+  letter-spacing: 0.51;
+}
+.hero-container .hero-image img {
+  width: 290px;
+}
+/* projects section */
+.projects {
+  padding-top: 100px;
+}
+.projects ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.others a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
+
+.projects li a {
+  text-decoration-color: #1d1d1d;
 }
-footer {
-  background-color: #1c456d;
-  color: #d1d0cc;
-  padding: 5px;
-  text-align: center;
+.projects .project-title {
+  opacity: 0.64;
+  color: #000;
+}
+
+.projects .project-description {
+  opacity: 0.64;
+  color: #000;
 }

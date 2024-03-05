@@ -7,60 +7,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>Murtaza Tankiwala</h1>
-      <img src="./assets/Images/My Photo.jpg" alt="murtaza pic" height="130" />
+    <header class="container">
+      <div class="logo">
+        <img src="./assets/Images/sr.png" alt="logo" />
+      </div>
+      <nav class="main-nav">
+        <a href="./about.html">About</a>
+        <a href="./about.html">Home</a>
+      </nav>
     </header>
-    <section class="summary">
-      <h2>Summary</h2>
-      I am a hardworking and dedicated teacher along with great learning skills.
-      <p></p>
-    </section>
-    <hr />
-    <section class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          Bachelor of Arts, English Litrature - University of XYZ (2017-2019)
-        </li>
-      </ul>
-    </section>
-    <hr />
-    <section class="experience">
-      <h2>Work Experience</h2>
-      <ul>
-        <li><h3>Business Development Executive-M Bohra</h3></li>
-        <p>Jan 2024 - Feb 2024</p>
+    <main class="container">
+      <section class="hero-container">
+        <div class="text">
+          <h1 class="author">Murtaza Tankiwala</h1>
+          <p class="role">
+            Murtaza Tankiwala is an aspiring developer and avid learner focused
+            on mastering the MERN (MongoDB, Express.js, React.js, Node.js)
+            stack. Murtaza is passionate about sharing his knowledge and
+            experiences with others interested in web development.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/Images/avatar2.png" alt="" />
+        </div>
+      </section>
+      <section class="projects">
+        <h2>Featured Projects and Content</h2>
         <ul>
-          <li>Research</li>
-          <li>Profile Manager</li>
+          <li>
+            <a
+              target="_blank"
+              href="https://murtazatankiwala456.github.io/niceapp-bootstrap/"
+              ><h3 class="project-title">Niceapp website</h3></a
+            >
+          </li>
+          <p class="project-description">
+            NiceApp is an exciting web project crafted using Bootstrap, a
+            versatile front-end framework. Our website aims to redefine user
+            experiences by offering a visually stunning and user-friendly
+            platform. Leveraging the power of Bootstrap, NiceApp boasts a
+            responsive design, ensuring seamless navigation and compatibility
+            across various devices. Whether you're accessing the site on a
+            desktop, tablet, or smartphone, you can expect a polished and
+            intuitive interface. NiceApp brings together the latest technologies
+            and design principles to create an engaging environment for users to
+            explore and enjoy
+          </p>
         </ul>
-      </ul>
-    </section>
-    <hr />
-    <section class="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Communication:⭐️⭐️⭐️</li>
-        <li>Writing:⭐️⭐️⭐️</li>
-      </ul>
-    </section>
-    <hr />
-    <section class="others">
-      <h2>Others</h2>
-      <ul>
-        <li><a href="./public/contact.html">Contact Me</a></li>
-        <li><a href="./public/hobbies.html">My Hobbies</a></li>
-      </ul>
-    </section>
-    <footer>
-      <p>© Murtaza Tankiwala. All rights reserved.</p>
-    </footer>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://murtazatankiwala456.github.io/recipe/"
+              ><h3 class="project-title">Recipe Site</h3></a
+            >
+          </li>
+          <p class="project-description">
+            Welcome to our recipe haven, where culinary delights await! Our
+            recipe website is your go-to destination for all things gastronomy.
+            Whether you're a seasoned chef or a novice in the kitchen, our
+            extensive collection of recipes caters to all tastes and skill
+            levels. From mouthwatering mains to delectable desserts, we've got
+            you covered with step-by-step instructions, ingredient lists, and
+            helpful tips to ensure culinary success. Explore our diverse range
+            of cuisines, from international flavors to comforting classics, and
+            discover new favorites to delight your taste buds. Join our thriving
+            community of food enthusiasts, share your culinary creations, and
+            embark on a flavorful journey with us
+          </p>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
