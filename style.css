@@ -29,16 +29,26 @@ nav.main-nav a {
 nav.main-nav a:hover {
   color: #000;
 }
-.mobile {
+nav.main-nav a:nth-child(3),
+nav.main-nav a:nth-child(4) {
+  display: none;
+}
+/* Mobile Nav */
+.hamburger-icons {
   display: none;
   flex-direction: column;
   gap: 5px;
+  transition: 0.2s ease-in;
+  z-index: 2;
 }
-.mobile > div {
+.hamburger-icons > div {
   height: 2px;
   width: 30px;
   background-color: #000;
   opacity: 0.64;
+}
+.mobile-active {
+  transform: rotate(-90deg);
 }
 
 main {
@@ -124,11 +134,30 @@ footer nav {
   header {
     padding: 20px;
   }
-  .mobile {
+  .hamburger-icons {
     display: flex;
   }
   .main-nav {
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    z-index: 1;
     display: none;
+  }
+  .main-nav a {
+    font-size: 2rem;
+  }
+  nav.main-nav a:nth-child(3),
+  nav.main-nav a:nth-child(4) {
+    display: block;
   }
   .hero-image {
     display: none;
